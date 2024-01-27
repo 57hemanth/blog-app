@@ -5,7 +5,7 @@ import dbConnect from "./config/dbConnect.js"
 import dotenv from "dotenv"
 import userRouter from "./routes/User/userRouter.js"
 import cookieParser from "cookie-parser"
-import postRouter from "./routes/Post/PostRouter.js"
+import postRouter from "./routes/Post/postRouter.js"
 import path from "path"
 
 const app = express()
