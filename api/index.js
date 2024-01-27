@@ -11,7 +11,7 @@ import path from "path"
 const app = express()
 dotenv.config()
 app.use(cors({
-    credentials: true, origin: "http://localhost:5173"
+    credentials: true, origin: "https://blog.hemu.dev"
 }))
 app.use(cookieParser())
 app.use(bodyParser.json())
